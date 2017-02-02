@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="train_layout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TrainControl">
+   <children>
+      <ImageView fitHeight="588.0" fitWidth="818.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fon1.png" />
+         </image>
+      </ImageView>
+      <Button id="btn_exit_tr" fx:id="btn_exit_tr" layoutX="24.0" layoutY="398.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="50.0" prefWidth="85.0" text="Выход">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField id="tf_seq_tr" fx:id="tf_seq_tr" layoutX="24.0" layoutY="355.0" prefHeight="25.0" prefWidth="667.0" promptText="Введите секвенцию" />
+      <Button id="btn_1_tr" fx:id="btn_1_tr" layoutX="124.0" layoutY="398.0" mnemonicParsing="false" onAction="#first" prefHeight="25.0" prefWidth="31.0" text="1" />
+      <Button id="btn_2_tr" fx:id="btn_2_tr" layoutX="162.0" layoutY="398.0" mnemonicParsing="false" onAction="#second" prefHeight="25.0" prefWidth="31.0" text="2" />
+      <Button id="btn_3_tr" fx:id="btn_3_tr" layoutX="199.0" layoutY="398.0" mnemonicParsing="false" onAction="#third" prefHeight="25.0" prefWidth="31.0" text="3" />
+      <Button id="btn_4_tr" fx:id="btn_4_tr" layoutX="239.0" layoutY="398.0" mnemonicParsing="false" onAction="#fourth" prefHeight="25.0" prefWidth="31.0" text="4" />
+      <Button id="btn_8_tr" fx:id="btn_8_tr" layoutX="395.0" layoutY="399.0" mnemonicParsing="false" onAction="#eighth" prefHeight="25.0" prefWidth="31.0" text="8" />
+      <Button id="btn_7_tr" fx:id="btn_7_tr" layoutX="355.0" layoutY="399.0" mnemonicParsing="false" onAction="#seventh" prefHeight="25.0" prefWidth="31.0" text="7" />
+      <Button id="btn_6_tr" fx:id="btn_6_tr" layoutX="316.0" layoutY="399.0" mnemonicParsing="false" onAction="#sixth" prefHeight="25.0" prefWidth="31.0" text="6" />
+      <Button id="btn_5_tr" fx:id="btn_5_tr" layoutX="278.0" layoutY="399.0" mnemonicParsing="false" onAction="#fifth" prefHeight="25.0" prefWidth="31.0" text="5" />
+      <Button id="btn_12_tr" fx:id="btn_12_tr" layoutX="547.0" layoutY="399.0" mnemonicParsing="false" onAction="#twelfth" prefHeight="25.0" prefWidth="31.0" text="12" />
+      <Button id="btn_11_tr" fx:id="btn_11_tr" layoutX="507.0" layoutY="399.0" mnemonicParsing="false" onAction="#eleventh" prefHeight="25.0" prefWidth="31.0" text="11" />
+      <Button id="btn_10_tr" fx:id="btn_10_tr" layoutX="469.0" layoutY="399.0" mnemonicParsing="false" onAction="#tenth" prefHeight="25.0" prefWidth="31.0" text="10" />
+      <Button id="btn_9_tr" fx:id="btn_9_tr" layoutX="432.0" layoutY="399.0" mnemonicParsing="false" onAction="#ninth" prefHeight="25.0" prefWidth="31.0" text="9" />
+      <Button id="btn_instr" fx:id="btn_instr" layoutX="595.0" layoutY="399.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Инфо">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button id="btn_send_tr" fx:id="btn_start_tr" layoutX="595.0" layoutY="399.0" mnemonicParsing="false" onAction="#readSequence" prefHeight="50.0" prefWidth="100.0" text="Начать">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField id="tf_add_tr" fx:id="tf_add_tr" layoutX="22.0" layoutY="321.0" prefHeight="25.0" prefWidth="667.0" promptText="Введите параментр, если он нужен" />
+      <TreeView id="tv_tree" fx:id="tv_tree" layoutX="24.0" layoutY="27.0" opacity="0.67" prefHeight="284.0" prefWidth="667.0" />
+      <Button fx:id="btn_del" layoutX="114.0" layoutY="437.0" mnemonicParsing="false" onAction="#delItem" prefHeight="25.0" prefWidth="232.0" text="Удалить">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_ck" layoutX="353.0" layoutY="437.0" mnemonicParsing="false" onAction="#Check" prefHeight="25.0" prefWidth="232.0" text="Проверить">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

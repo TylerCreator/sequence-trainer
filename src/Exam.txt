@@ -1,0 +1,9 @@
++av-a
+a&(bvc)+a&bva&c
+a&bva&c+a&(bvc)
+a&(avb)+a
+a+a&(avb)
+a=b+-avb
+-avb+a=b
+-(avb)+-a&-b
+-a&-b+-(avb)
