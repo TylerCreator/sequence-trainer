@@ -1,0 +1,24 @@
+
+
+Version:	3.9
+CmdLine:	C:\Users\Admin\IdeaProjects\seq\out\artifacts\Sequence\SQNC.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\Admin\IdeaProjects\seq\out\artifacts\Sequence\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_111
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_111\bin\javaw.exe (OK)
+Match:		1.8.0_111
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_66
+Ignore:		1.8.0_066
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Runtime used:	1.8.0_111 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_111\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Admin\IdeaProjects\seq\out\artifacts\Sequence\SQNC.exe"
+Args length:	70/32768 chars
+Exit code:	0
